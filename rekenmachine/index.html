@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>rekenmachine</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="screen" id="answer"></div>
+      <div id="buttons">
+        <div
+          class="button"
+          style="border-radius: 3% 3% 3% 17%"
+          id="null"
+          onclick="Null_input()"
+        >
+          0
+        </div>
+        <div class="button" id="coma" onclick="None_input()">c</div>
+        <div class="button" id="increment" onclick="Increment_input()">+</div>
+        <div
+          class="button"
+          style="border-radius: 3% 3% 17% 3%"
+          onclick="DoMath()"
+        >
+          =
+        </div>
+        <div class="button" id="één" onclick="één_input()">1</div>
+        <div class="button" id="twee" onclick="Twee_input()">2</div>
+        <div class="button" id="drie" onclick="Drie_input()">3</div>
+        <div class="button" id="decrement" onclick="Decrement_input()">-</div>
+        <div class="button" id="vier" onclick="Vier_input()">4</div>
+        <div class="button" id="vijfe" onclick="vijfe_input()">5</div>
+        <div class="button" id="zes" onclick="Zes_input()">6</div>
+        <div class="button" id="x" onclick="X_input()">x</div>
+        <div class="button" id="zeven" onclick="Zeven_input()">7</div>
+        <div class="button" id="acht" onclick="Acht_input()">8</div>
+        <div class="button" id="negen" onclick="Negen_input()">9</div>
+        <div class="button" id="dubbelePunt" onclick="DubbelePunt_input()">
+          ÷
+        </div>
+      </div>
+    </div>
+    <script src="/javascript/main.js"></script>
+  </body>
+</html>
